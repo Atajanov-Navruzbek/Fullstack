@@ -1,0 +1,8 @@
+// 5. account objectida balance property yarating 
+// va uni enumerable: false qiling.
+const account ={
+    balance : true
+};
+
+Object.defineProperty(account,"balance",{enumerable:false})
+console.log(Object.getOwnPropertyDescriptor(account,"balance"))

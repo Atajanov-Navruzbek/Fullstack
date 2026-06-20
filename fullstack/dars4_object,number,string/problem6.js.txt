@@ -1,0 +1,7 @@
+let son =123456;
+let arr=String(son).split("");
+
+let a = arr[0];
+arr[0]=arr.at(-1)
+arr[arr.length - 1] = a
+console.log(+arr.join(""));

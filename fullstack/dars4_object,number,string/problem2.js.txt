@@ -1,0 +1,12 @@
+// Matn berilgan. 
+// Undagi eng uzun so'zni toping.
+let name= "Salom dunyo Uzbekistan forever"
+let name1= name.split(" ");
+let maxName= "";
+for (let i in name1){
+    if (name1[i].length > maxName.length){
+        
+        maxName = name1[i]
+    }
+};
+    console.log(maxName)

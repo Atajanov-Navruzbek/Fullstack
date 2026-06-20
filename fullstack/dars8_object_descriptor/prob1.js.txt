@@ -1,0 +1,7 @@
+// 1. car objectida model propertysi yarating. 
+// Descriptorlarini chiqarib bering.
+
+const car = {
+    model : "nexia"
+}
+console.log(Object.getOwnPropertyDescriptor(car,"model"))

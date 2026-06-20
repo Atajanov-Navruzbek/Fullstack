@@ -1,0 +1,9 @@
+function spaceCount(text){
+    let count=0;
+    for(space of text){
+        if(space == " ") count++
+    };  
+    
+    return count ;
+};
+console.log("Space soni = ",spaceCount("fdas  fds d fd   "))

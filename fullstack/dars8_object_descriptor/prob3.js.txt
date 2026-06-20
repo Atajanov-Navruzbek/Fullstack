@@ -1,0 +1,14 @@
+// 3. book objectida isbn property yarating va 
+// uni: 
+// ○ writable: false 
+// ○ configurable: false 
+// qilib belgilang.
+
+const book = {
+    isbn : true
+};
+
+Object.defineProperty(book,"isbn",{writable: false});
+Object.defineProperty(book,"isbn",{configurable: false});
+
+console.log(Object.getOwnPropertyDescriptor(book,'isbn'))

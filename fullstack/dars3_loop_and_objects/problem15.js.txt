@@ -1,0 +1,14 @@
+const student ={
+    ali : 78,
+    vali : 84,
+    gali : 66
+};
+let max=0;
+let name = [];
+for (let key in student){
+    if(student[key]>max){
+        max=student[key]
+        name = key
+    }
+}
+console.log(name)

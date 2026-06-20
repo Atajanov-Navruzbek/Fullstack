@@ -1,0 +1,11 @@
+// 4. settings objectida theme property yarating 
+// va keyin qiymatini o'zgartirishga urinib 
+// ko'ring.
+
+const settings = {
+    theme : true
+    
+};
+settings.theme = false;
+
+console.log(settings.theme)

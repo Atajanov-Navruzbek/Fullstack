@@ -1,0 +1,14 @@
+
+    const obj={
+        name : "Ali",
+        age : 20 ,
+        score : 95
+    };
+    let sum =0;
+    for (let value of Object.values(obj)){
+        console.log(value)
+        if (Number(value)){
+            sum+=value;
+        }
+    }
+    console.log(sum)

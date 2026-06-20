@@ -1,0 +1,8 @@
+const name = {
+    name : "Ali",
+    adress: "tashkent",
+    mode : "hab"
+};
+let str= (Object.values(name));
+
+    console.log(str)

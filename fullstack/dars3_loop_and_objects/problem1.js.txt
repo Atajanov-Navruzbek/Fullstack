@@ -1,0 +1,11 @@
+function son(num){
+    for (let i=1;i<=num;i++){
+        if (num%i===0){
+            console.log(i)
+        }
+    }
+    console.log(num)
+    
+};
+let num=28;
+son(num)

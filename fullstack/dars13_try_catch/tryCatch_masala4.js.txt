@@ -1,0 +1,32 @@
+// 4. Guruhlash (objects + reduce)
+// groupBy(arr, key) obyektlar massivini berilgan key bo‘yicha guruhlasin.
+// const users = [
+//   { name: "Ali", city: "Tashkent" },
+//   { name: "Vali", city: "Samarqand" },
+//   { name: "Guli", city: "Tashkent" }
+// ];
+function group(arr){
+    const obj = {};
+    
+    for(let i of arr){
+        console.log(i)
+        for (let j of arr){
+            console.log(j)
+            if (i["city"] == j){
+                obj[j]=[i];
+            }
+                
+        }
+    }
+    return obj
+}    
+const users = [
+  { name: "Ali", city: "Tashkent" },
+  { name: "Vali", city: "Samarqand" },
+  { name: "Guli", city: "Tashkent" },
+];
+
+
+
+console.log(group(users, key));
+

@@ -1,0 +1,19 @@
+// . Foydalanuvchilar ro'yxati berilgan. Login nomlarini kalit, 
+// yoshlarini qiymat sifatida Map ga joylashtiring. 
+function loginKey(arr){
+    const result = new Map();
+    
+    for (let i of arr)
+        result.set(i[0],i[1])
+
+    return result
+}
+const users = [
+    ["ali", 20],
+    ["vali", 23],
+    ["guli", 22],
+    ["hasan", 42],
+    ["husan", 42]
+];
+
+console.log(loginKey(users))

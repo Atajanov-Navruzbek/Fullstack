@@ -1,0 +1,11 @@
+let obj={
+    math : 89,
+    physics : 90,
+    english : 78
+};
+let total=0
+for (let key in obj){
+        total+= obj[key]
+        
+}
+console.log(total)

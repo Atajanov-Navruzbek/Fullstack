@@ -1,0 +1,10 @@
+function son(num){
+    num=String(num)
+    let natija="";
+    for (let i = num.length-1;i>=0;i--){
+        
+        natija+=num[i];
+    }
+    return natija
+};
+console.log(son(567))

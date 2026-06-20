@@ -1,0 +1,13 @@
+// 2. employee objectidagi barcha property 
+// descriptorlarini 
+// Object.getOwnPropertyDescriptors() yordamida 
+// chiqaring.
+
+const employe = {
+    name : "Azizbek",
+    age : 31
+};
+
+for (let i in employe){
+    console.log(Object.getOwnPropertyDescriptor(employe,i))
+}

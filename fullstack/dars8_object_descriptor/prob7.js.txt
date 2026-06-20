@@ -1,0 +1,14 @@
+// 6. user objectiga birdaniga 3 ta propertyni 
+// Object.defineProperties() yordamida qo'shing. 
+
+const user ={};
+
+Object.defineProperties(user, {
+    name : {value: "Aziz"},
+    age : {value: 31} ,
+    id: {value:1}
+});
+console.log(user)
+console.log(user.name)
+console.log(user.age)
+console.log(user.id)

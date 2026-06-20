@@ -1,0 +1,10 @@
+const obj ={
+    age:2,
+    name:"Aziz",
+    adress:"tashkent"
+};
+let sum =0 ;
+for (let key in Object.keys(obj)){
+    sum+=Object.keys(obj).length
+};
+console.log(sum)

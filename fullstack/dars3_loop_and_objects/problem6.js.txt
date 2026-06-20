@@ -1,0 +1,17 @@
+function armstrong(son){
+    let str=String(son);
+    let arr=str.split('');
+    let sum = 0 ;
+
+    for (let i = 0; i<arr.length; i++){
+        sum+=Number(arr[i])** arr.length
+    }
+    if (sum===son){
+        return console.log("Armstrong son:",son,"=",sum)
+    }else { 
+        return console.log("Armstrong son emas ")    
+    }
+       
+    
+};
+armstrong(153)

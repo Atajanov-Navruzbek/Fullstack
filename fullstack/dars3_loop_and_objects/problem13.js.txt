@@ -1,0 +1,19 @@
+const obj={
+    ism : "Ali",
+    age : 19,
+    adress : "tashkent"
+};
+
+const obj1 = {
+    ism : "Ali",
+    age : 19,
+    adress : "tashkent",
+    score : 79
+};
+let maxProperty = 0 ;
+
+if (Object.entries(obj).length > Object.entries(obj1).length){
+     console.log(obj,"Uzunligi",Object.entries(obj).length)
+} else {
+    console.log(obj1,"Uzunligi",Object.entries(obj).length)
+};

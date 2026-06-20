@@ -1,0 +1,23 @@
+const name = {
+    a:5,
+    b:1,
+    c:1,
+    d:3,
+    e:3,
+    g:3
+};
+let maxCore=0;
+let ism={}
+for (let i of Object.values(name)){
+    if (ism[i]){
+        ism[i]=ism[i]+1
+    }else {
+        ism[i]=1
+    }
+    //console.log(i)
+    if (ism[i]>maxCore){
+        maxCore=ism[i]
+    } ;
+
+}
+console.log(maxCore)

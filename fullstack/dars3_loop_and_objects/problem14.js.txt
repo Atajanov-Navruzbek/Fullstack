@@ -1,0 +1,11 @@
+function juftSon(n){
+    let son = String(n);
+    for (let i of son){
+       if (i % 2 !==0){
+           return false
+        }
+    }
+    return true
+    
+};
+console.log(juftSon(4148))

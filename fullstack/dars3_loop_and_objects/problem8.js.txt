@@ -1,0 +1,6 @@
+const obj={
+    ism : "ali",
+    lastName : "Aliev",
+    age : 19
+};
+console.log(Object.values(obj).sort())

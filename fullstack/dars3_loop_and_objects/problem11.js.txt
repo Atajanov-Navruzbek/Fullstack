@@ -1,0 +1,16 @@
+const obj ={
+    ism : "Ali aliev",
+    lastName : "Vali"
+};
+let maxString = 0;
+let  name = "";
+
+    for(let i in obj ){
+        if (obj[i].length > maxString){
+            maxString = obj[i].length
+            name=obj[i]
+        }
+        
+    
+    };
+console.log(name)      
